@@ -53,14 +53,13 @@ li:hover {
     width: 50%;
     text-align: center;
     color: #ffff;
-
 }
 
 .container-banner h1 {
+    font-family: 'Lucida Grande';
     font-size: 5rem;
     margin-top: 10px;
-    text-shadow: 3px 0px red;
-    -3
+    text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
 }
 
 .container-banner p {
@@ -68,11 +67,12 @@ li:hover {
     margin: 30px 0;
     font-weight: 400;
     font-size: 20px;
-    text-align: center
+    text-align: center;
 }
 
 .botoes {
     margin: 20px 0px 0px;
+    padding: 20px;
 }
 
 #assistir {
@@ -103,4 +103,14 @@ li:hover {
 #imformacoes:hover {
     font-size: 15px;
     background-color: #5e59b7;
+}
+
+.spider-man {
+    position: absolute;
+    right: -50px;
+    bottom: -40px;
+}
+
+.spider-man img {
+    width: 750px;
 }
