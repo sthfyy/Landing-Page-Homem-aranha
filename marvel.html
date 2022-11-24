@@ -20,7 +20,7 @@
                     <li>SERIES</li>
                     <li>FILMES</li>
                     <li>JOGOS</li>
-                    <li>NOVO</li>
+                    <li><a href="#form">CADASTRAR </a></li>
                 </ul>
             </nav>
         </div>
@@ -38,13 +38,17 @@
                 e ciência desde cedo.
                 Por conta de sua timidez e inteligência, não demorou para ser alvo de bullying na escola.</p>
 
+
             <div class="botoes">
+                <a href="#trailer">
+                    <button id="assistir"> <a href="#trailer">
 
-                <button id="assistir">
-                    <i class="fa-solid fa-circle-play"></i>
-                    Assistir agora
-                </button>
 
+
+                            <i class="fa-solid fa-circle-play"></i>
+                            Assistir Trailer
+                    </button>
+                </a>
                 <button id="informacoes">Mais informações</button>
             </div>
 
@@ -53,6 +57,72 @@
         <div class="spider-man">
             <img src="imagens/spidermam.png" alt="">
         </div>
+    </section>
+
+    <form id="form">
+
+        <h3></h3>
+
+        <fieldset class="informacao-cliente">
+            <label for="GET-name">Nome:</label>
+            <input id="GET-name" placeholder="Pedro dos Santos" type="text" name="name">
+            <br>
+            <label for="GET-nascimento">Nascimento:</label>
+            <input id="GET-nascimento" type="date" name="name">
+            <br>
+            <label for="GET-email">Email:</label>
+            <input id="GET-email" placeholder="seuemail@gmail.com" type="mail" name="name">
+            <br>
+            <label for="GET-telefone">telefone:</label>
+            <input id="GET-telefone" placeholder="(00) 0 0000-0000" type="number" name="name">
+        </fieldset>
+
+        <fieldset class="interese">
+            <p>Onde Assistir:</p>
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" value="cinema">
+            <br>
+            <label for="drive-in">Drive-in</label>
+            <input type="checkbox" value="drive-in">
+            <br>
+            <label for="teatro">Teatro</label>
+            <input type="checkbox" value="teatro">
+            <br>
+            <br>
+
+            <label for="slecione">Qual filme gostaria de assistir:</label>
+            <select name="filmes" id="selecione">
+                <optgroup label="1. Série: Tobey Maguire e estúdios Sony">
+                    <option value="">1 Homem Aranha (2002)</option>
+                    <option value="">2 Homem Aranha (2004)</option>
+                    <option value="">3 Homem Aranha (2007)</option>
+                </optgroup>
+
+                <optgroup label="2. Recomeço: Andrew Garfield e Sony">
+                    <option value="">1 O Espetacular Homem Aranha (2012)</option>
+                    <option value="">2 O Espetacular Homem Aranha (2014)</option>
+                </optgroup>
+
+                <optgroup label="3. Série: Tom Holland e Disney/Marvel">
+                    <option value="">1 Capitão America: Guerra Civil (2016)</option>
+                    <option value="">2 Homem Aranha de Volta ao Lar (2017)</option>
+                    <option value="">3 Vingadores Guerra Infinita (2018)</option>
+                    <option value="">4 Vingadores Ultimato (2019)</option>
+                    <option value="">5 Homem-Aranha: Longe de Casa (2019)</option>
+                    <option value="">6 Homem-Aranha: Sem Caminho de Casa (2021)</option>
+                </optgroup>
+
+            </select>
+
+        </fieldset>
+
+    </form>
+    <section id="secao-video">
+        <iframe id="trailer" width="1041" height="517" src="https://www.youtube.com/embed/CyiiEJRZjSU"
+            title="Homem-Aranha: Sem Volta Para Casa | Trailer Oficial Dublado | 16 de dezembro nos cinemas"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
 
     </section>
 

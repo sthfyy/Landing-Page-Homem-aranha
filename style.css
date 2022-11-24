@@ -2,8 +2,13 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(#030939, #403d81);
+    font-family: Verdana;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(240, 240, 253);
+}
 
 header {
     padding: 1.5rem 0px;
@@ -39,20 +44,24 @@ header nav ul {
 
 li {
     margin-left: 5px;
+    padding: 4px;
 }
 
 li:hover {
     color: #c10505;
+    cursor: pointer;
 }
 
 .container-banner img {
     padding: 20px;
+    margin-top: 50px;
 }
 
 .container-banner {
     width: 50%;
     text-align: center;
     color: #ffff;
+    margin-left: 5rem;
 }
 
 .container-banner h1 {
@@ -87,7 +96,7 @@ li:hover {
 
 #assistir:hover {
     font-size: 15px;
-    background-color: #5e59b7;
+    background-color: #f64646;
 }
 
 #informacoes {
@@ -106,11 +115,31 @@ li:hover {
 }
 
 .spider-man {
-    position: absolute;
+    position: fixed;
     right: -50px;
     bottom: -40px;
 }
 
 .spider-man img {
     width: 750px;
+}
+
+
+#form {
+    width: 45%;
+    left: 80%;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 20px solid #c10505;
+    z-index: 200;
+}
+
+#secao-video {
+    margin-bottom: 5rem;
 }
