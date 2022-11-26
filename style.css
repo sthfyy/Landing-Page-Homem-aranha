@@ -125,11 +125,70 @@ li:hover {
 }
 
 
+form {
+    color: #dcdcdc;
+}
+
 #form {
-    width: 45%;
-    left: 80%;
-    background-color: #ffff;
+    width: 30%;
+    margin: 5rem;
+    padding: 2rem;
+    background: linear-gradient(#4682B4, #191970);
     border-radius: 10px;
+    border: 10px solid #c10505;
+    font-family: Tahoma, sans-serif;
+}
+
+.text-form h3 {
+    text-align: center;
+    color: #ffff;
+    text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
+    font-family: Georgia;
+
+
+}
+
+
+input {
+    background: linear-gradient(#191970, #4682B4);
+    border-radius: 10px;
+    color: #ffff;
+
+}
+
+input::placeholder {
+    color: rgb(255, 0, 0);
+    padding: 1rem 1rem;
+}
+
+
+.text-assistir h5 {
+    color: #ffff;
+    text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
+    font-family: Georgia;
+}
+
+#text-form h5 {
+    color: #ffff;
+    text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
+    font-family: Georgia;
+}
+
+#text-form {
+    margin: .6rem;
+    color: #ffff;
+    text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
+    font-family: Georgia;
+
+}
+
+
+
+
+.botao-enviar {
+    padding: 5px;
+    border: .2px;
+    color: #c10505;
 }
 
 iframe {
@@ -141,5 +200,5 @@ iframe {
 }
 
 #secao-video {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }

@@ -17,10 +17,10 @@
             <img src="Imagens/logo (1).png" alt="">
             <nav>
                 <ul>
-                    <li>SERIES</li>
+                    <li>SÉRIES</li>
                     <li>FILMES</li>
                     <li>JOGOS</li>
-                    <li><a href="#form">CADASTRAR </a></li>
+                    <li><a href="#form">CADASTRE - SE </a></li>
                 </ul>
             </nav>
         </div>
@@ -42,9 +42,6 @@
             <div class="botoes">
                 <a href="#trailer">
                     <button id="assistir"> <a href="#trailer">
-
-
-
                             <i class="fa-solid fa-circle-play"></i>
                             Assistir Trailer
                     </button>
@@ -60,62 +57,75 @@
     </section>
 
     <form id="form">
-
-        <h3></h3>
-
+        <div class="text-form">
+            <h3>Inscreva-se hoje mesmo!</h3>
+            <p><strong>Tenha acesso a diversos conteudos, como Séries, Filmes, Jogos gratuitos e ouça podcasts
+                    exclusivos!</strong></p>
+        </div>
         <fieldset class="informacao-cliente">
-            <label for="GET-name">Nome:</label>
-            <input id="GET-name" placeholder="Pedro dos Santos" type="text" name="name">
+            <div id="text-form">
+                <h5>Preencha seus dados </h5>
+            </div>
+            <label for="GET-name"><strong>Nome completo:</strong></label>
+            <input id="GET-name" placeholder="seu nome aqui" type="text" name="name">
             <br>
-            <label for="GET-nascimento">Nascimento:</label>
-            <input id="GET-nascimento" type="date" name="name">
+            <label for="GET-nascimento"><strong>Data de nascimento:</strong></label>
+            <input id="GET-nascimento" placeholder="00/00/0000" type="date" name="name">
             <br>
-            <label for="GET-email">Email:</label>
+            <label for="GET-email"><strong>Email:</strong> </label>
             <input id="GET-email" placeholder="seuemail@gmail.com" type="mail" name="name">
             <br>
-            <label for="GET-telefone">telefone:</label>
+            <label for="GET-telefone"><Strong>Tel:</Strong></label>
             <input id="GET-telefone" placeholder="(00) 0 0000-0000" type="number" name="name">
         </fieldset>
 
         <fieldset class="interese">
-            <p>Onde Assistir:</p>
-            <label for="cinema">Cinema</label>
+
+            <div class="text-assistir">
+                <h5>Onde Assistir:</h5>
+            </div>
+            <label for="cinema"><strong>Cinema</Strong></label>
             <input type="checkbox" value="cinema">
             <br>
-            <label for="drive-in">Drive-in</label>
+            <label for="drive-in"><strong>Drive-in</Strong></label>
             <input type="checkbox" value="drive-in">
             <br>
-            <label for="teatro">Teatro</label>
+            <label for="teatro"><strong>Teatro</Strong></label>
             <input type="checkbox" value="teatro">
             <br>
             <br>
+            <div id="text-form">
+                <label for="slecione">Qual filme gostaria de assistir:</label>
+            </div>
 
-            <label for="slecione">Qual filme gostaria de assistir:</label>
-            <select name="filmes" id="selecione">
-                <optgroup label="1. Série: Tobey Maguire e estúdios Sony">
-                    <option value="">1 Homem Aranha (2002)</option>
-                    <option value="">2 Homem Aranha (2004)</option>
-                    <option value="">3 Homem Aranha (2007)</option>
-                </optgroup>
+            <div id="select">
+                <select name="filmes" id="selecione">
+                    <optgroup label="1. Série: Tobey Maguire e estúdios Sony">
+                        <option value="">1 Homem Aranha (2002)</option>
+                        <option value="">2 Homem Aranha (2004)</option>
+                        <option value="">3 Homem Aranha (2007)</option>
+                    </optgroup>
 
-                <optgroup label="2. Recomeço: Andrew Garfield e Sony">
-                    <option value="">1 O Espetacular Homem Aranha (2012)</option>
-                    <option value="">2 O Espetacular Homem Aranha (2014)</option>
-                </optgroup>
+                    <optgroup label="2. Recomeço: Andrew Garfield e Sony">
+                        <option value="">1 O Espetacular Homem Aranha (2012)</option>
+                        <option value="">2 O Espetacular Homem Aranha (2014)</option>
+                    </optgroup>
 
-                <optgroup label="3. Série: Tom Holland e Disney/Marvel">
-                    <option value="">1 Capitão America: Guerra Civil (2016)</option>
-                    <option value="">2 Homem Aranha de Volta ao Lar (2017)</option>
-                    <option value="">3 Vingadores Guerra Infinita (2018)</option>
-                    <option value="">4 Vingadores Ultimato (2019)</option>
-                    <option value="">5 Homem-Aranha: Longe de Casa (2019)</option>
-                    <option value="">6 Homem-Aranha: Sem Caminho de Casa (2021)</option>
-                </optgroup>
-
-            </select>
-
+                    <optgroup label="3. Série: Tom Holland e Disney/Marvel">
+                        <option value="">1 Capitão America: Guerra Civil (2016)</option>
+                        <option value="">2 Homem Aranha de Volta ao Lar (2017)</option>
+                        <option value="">3 Vingadores Guerra Infinita (2018)</option>
+                        <option value="">4 Vingadores Ultimato (2019)</option>
+                        <option value="">5 Homem-Aranha: Longe de Casa (2019)</option>
+                        <option value="">6 Homem-Aranha: Sem Caminho de Casa (2021)</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <div class="botao-enviar">
+                    <button>Concluir</button>
+                </div>
         </fieldset>
-
     </form>
     <section id="secao-video">
         <iframe id="trailer" width="1041" height="517" src="https://www.youtube.com/embed/CyiiEJRZjSU"
