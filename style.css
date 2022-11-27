@@ -126,7 +126,7 @@ li:hover {
 
 
 form {
-    color: #dcdcdc;
+    color: #ffffff6f;
 }
 
 #form {
@@ -150,15 +150,15 @@ form {
 
 
 input {
-    background: linear-gradient(#191970, #4682B4);
+    background: linear-gradient(#f3f3ff, #9dbfda);
     border-radius: 10px;
-    color: #ffff;
+    color: rgb(255, 0, 0);
     font-weight: bold;
 
 }
 
 input::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     padding: 1rem 1rem;
 }
 
@@ -168,6 +168,35 @@ input::placeholder {
     text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
     font-family: Georgia;
 }
+
+
+.text-assistir {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.text-assistir label {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.radio {
+
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c10505;
+    position: relative;
+}
+
+.radio {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+}
+
 
 #text-form h5 {
     color: #ffff;
@@ -182,9 +211,6 @@ input::placeholder {
     font-family: Georgia;
 
 }
-
-
-
 
 .botao-enviar {
     padding: 5px;
