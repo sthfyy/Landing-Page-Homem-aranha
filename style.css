@@ -96,7 +96,7 @@ li:hover {
 
 #assistir:hover {
     font-size: 15px;
-    background-color: #f64646;
+    background-color: #c10505;
 }
 
 #informacoes {
@@ -153,11 +153,12 @@ input {
     background: linear-gradient(#191970, #4682B4);
     border-radius: 10px;
     color: #ffff;
+    font-weight: bold;
 
 }
 
 input::placeholder {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1rem 1rem;
 }
 
