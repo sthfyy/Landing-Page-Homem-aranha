@@ -59,24 +59,35 @@
     <form id="form">
         <div class="text-form">
             <h3>Inscreva-se hoje mesmo!</h3>
-            <p><strong>Tenha acesso a diversos conteudos, como Séries, Filmes, Jogos gratuitos e ouça podcasts
-                    exclusivos!</strong></p>
+            <small>Tenha acesso a diversos conteudos, como Séries, Filmes, Jogos gratuitos e ouça podcasts
+                exclusivos</small>
         </div>
         <fieldset class="informacao-cliente">
             <div id="text-form">
                 <h5>Preencha seus dados </h5>
             </div>
-            <label for="GET-name"><strong>Nome completo:</strong></label>
-            <input id="GET-name" placeholder="seu nome aqui" type="text" name="name">
-            <br>
-            <label for="GET-nascimento"><strong>Data de nascimento:</strong></label>
-            <input id="GET-nascimento" placeholder="00/00/0000" type="date" name="name">
-            <br>
-            <label for="GET-email"><strong>Email:</strong> </label>
-            <input id="GET-email" placeholder="seuemail@gmail.com" type="mail" name="name">
-            <br>
-            <label for="GET-telefone"><Strong>Tel:</Strong></label>
-            <input id="GET-telefone" placeholder="(00) 0 0000-0000" type="number" name="name">
+            <div class="NomeIdade">
+                <div>
+                    <label for="GET-name"><strong>Nome completo</strong></label>
+                    <input id="GET-name" placeholder="seu nome aqui" type="text" name="name">
+                </div>
+
+                <div>
+                    <label for="GET-nascimento"><strong>Data de nascimento</strong></label>
+                    <input style="width: 172px;" id="GET-nascimento" placeholder="00/00/0000" type="date" name="name">
+                </div>
+            </div>
+            <div class="Contato">
+                <div>
+                    <label for="GET-email"><strong>Email</strong> </label>
+                    <input id="GET-email" placeholder="seuemail@gmail.com" type="mail" name="name">
+                </div>
+                <div>
+                    <label for="GET-telefone"><Strong>Telefone</Strong></label>
+                    <input id="GET-telefone" placeholder="(00) 0 0000-0000" type="number" name="name">
+                </div>
+            </div>
+
         </fieldset>
 
         <fieldset class="interese">
@@ -97,37 +108,35 @@
                 <label for="slecione">Qual filme gostaria de assistir:</label>
             </div>
 
-            <div id="select">
-                <select name="filmes" id="selecione">
-                    <optgroup label="1. Série: Tobey Maguire e estúdios Sony">
-                        <option value="1 Homem Aranha (2002)">1 Homem Aranha (2002)</option>
-                        <option value="2 Homem Aranha (2004)">2 Homem Aranha (2004)</option>
-                        <option value="3 Homem Aranha (2007)">3 Homem Aranha (2007)</option>
-                    </optgroup>
+            <select name="filmes" id="selecione">
+                <optgroup label="1. Série: Tobey Maguire e estúdios Sony">
+                    <option value="1 Homem Aranha (2002)">1 Homem Aranha (2002)</option>
+                    <option value="2 Homem Aranha (2004)">2 Homem Aranha (2004)</option>
+                    <option value="3 Homem Aranha (2007)">3 Homem Aranha (2007)</option>
+                </optgroup>
 
-                    <optgroup label="2. Recomeço: Andrew Garfield e Sony">
-                        <option value="1 O Espetacular Homem Aranha (2012)">1 O Espetacular Homem Aranha (2012)</option>
-                        <option value="2 O Espetacular Homem Aranha (2014)">2 O Espetacular Homem Aranha (2014)</option>
-                    </optgroup>
+                <optgroup label="2. Recomeço: Andrew Garfield e Sony">
+                    <option value="1 O Espetacular Homem Aranha (2012)">1 O Espetacular Homem Aranha (2012)</option>
+                    <option value="2 O Espetacular Homem Aranha (2014)">2 O Espetacular Homem Aranha (2014)</option>
+                </optgroup>
 
-                    <optgroup label="3. Série: Tom Holland e Disney/Marvel">
-                        <option value="1 Capitão America: Guerra Civil (2016)">1 Capitão America: Guerra Civil (2016)
-                        </option>
-                        <option value="2 Homem Aranha de Volta ao Lar (2017)">2 Homem Aranha de Volta ao Lar (2017)
-                        </option>
-                        <option value="3 Vingadores Guerra Infinita (2018)">3 Vingadores Guerra Infinita (2018)</option>
-                        <option value="4 Vingadores Ultimato (2019)">4 Vingadores Ultimato (2019)</option>
-                        <option value="5 Homem-Aranha: Longe de Casa (2019)">5 Homem-Aranha: Longe de Casa (2019)
-                        </option>
-                        <option value="6 Homem-Aranha: Sem Caminho de Casa (2021)">6 Homem-Aranha: Sem Caminho de Casa
-                            (2021)</option>
-                    </optgroup>
-                </select>
-                <br>
-                <br>
-                <div class="botao-enviar">
-                    <button>CONCLIDO</button>
-                </div>
+                <optgroup label="3. Série: Tom Holland e Disney/Marvel">
+                    <option value="1 Capitão America: Guerra Civil (2016)">1 Capitão America: Guerra Civil (2016)
+                    </option>
+                    <option value="2 Homem Aranha de Volta ao Lar (2017)">2 Homem Aranha de Volta ao Lar (2017)
+                    </option>
+                    <option value="3 Vingadores Guerra Infinita (2018)">3 Vingadores Guerra Infinita (2018)</option>
+                    <option value="4 Vingadores Ultimato (2019)">4 Vingadores Ultimato (2019)</option>
+                    <option value="5 Homem-Aranha: Longe de Casa (2019)">5 Homem-Aranha: Longe de Casa (2019)
+                    </option>
+                    <option value="6 Homem-Aranha: Sem Caminho de Casa (2021)">6 Homem-Aranha: Sem Caminho de Casa
+                        (2021)</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar" name="Enviar">
+
         </fieldset>
     </form>
     <section id="secao-video">
