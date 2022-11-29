@@ -134,9 +134,10 @@ form {
     width: 30%;
     margin: 5rem;
     padding: 2rem;
-    background: linear-gradient(#4682B4, #191970);
+    background: linear-gradient(#4E5195, #203555);
     border-radius: 10px;
-    border: 10px solid #c10505;
+    border: 8px solid #c10505;
+    box-shadow: rgba(255, 0, 0, 0.353) 0px 6px 12px, rgba(255, 4, 4, 0.23) 0px 6px 12px;
     font-family: Tahoma, sans-serif;
 }
 
@@ -145,15 +146,12 @@ form {
     color: #ffff;
     text-shadow: 3px 0px red, -3px 0px red, 0px 3px red, 0px -3px red, 2px 2px red, -2px -2px red, 2px -2px red, -2px 2px red;
     font-family: Georgia;
-
-
 }
 
 small {
     text-align: center;
     font-weight: bold;
 }
-
 
 input,
 select {
@@ -163,7 +161,6 @@ select {
     font-weight: bold;
     margin: .5rem 0px;
     padding: .5rem;
-
 }
 
 input::placeholder {
@@ -189,7 +186,6 @@ fieldset {
     text-align: center;
 }
 
-
 .text-assistir {
     display: flex;
     justify-content: center;
@@ -212,10 +208,58 @@ iframe {
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    border: 20px solid #c10505;
+    box-shadow: rgba(255, 238, 238, 0.66) 0px 30px 90px;
+    border: 15px solid #c10505;
     z-index: 200;
 }
 
 #secao-video {
     margin-bottom: 3rem;
+}
+
+footer {
+    background: #c10505;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #ffff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
 }
